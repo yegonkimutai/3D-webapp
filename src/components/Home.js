@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import AnimatedLetters from './Animate';
 import { Link } from 'react-router-dom'
+import Logo from './Logo';
 import './Home.scss';
 
 const Home = () => {
@@ -51,7 +52,7 @@ const Home = () => {
               CONTACT ME
             </Link>
           </div>
-          {/* <Logo /> */}
+          <Logo />
         </div>
   
         {/* <Loader type="pacman" /> */}

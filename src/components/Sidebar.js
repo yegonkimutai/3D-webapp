@@ -1,7 +1,6 @@
 import { Link, NavLink } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Logo from '../assets/images/logo-s.png'
-import LogoSub from '../assets/images/logo_sub.png'
 import {
     faHome,
     faUser,
@@ -21,8 +20,8 @@ const Sidebar = () => {
         <div className="nav-bar">
             <Link to='/' className="logo">
                 <img src={Logo} alt="logo"/>
-                <img className="sub-logo" src={LogoSub} alt="logo"/>
             </Link>
+                <p className="sub-logo">YEGON</p>
             <nav>
             <NavLink 
           exact="true"

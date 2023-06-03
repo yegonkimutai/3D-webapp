@@ -14,14 +14,17 @@
       img {
         display: block;
         margin: 8px auto;
-        width: 24px;
+        width: 5rem;
         height: auto;
-  
-        &.sub-logo {
-          width: 50px;
-        }
+        background: none;
       }
     }}
+
+    .sub-logo {
+      width: 50px;
+      color: white;
+      font-size: 1.5rem;
+    }
 
     nav {
         display: block;
